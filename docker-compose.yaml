@@ -3,5 +3,6 @@ version: '3.9'
 services:
   web:
     image: "19968497/node-app-test-new:latest"
-        ports:
+    ports:
       - "8000:8000"
+        
